@@ -53,7 +53,7 @@ irb(main):018:0> 10
 
 float 
 
-```
+```ruby
 irb(main):019:0> 12.3
 => 12.3
 irb(main):020:0> 45.9
