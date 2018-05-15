@@ -1,9 +1,14 @@
 
-[TOC]
+ 
+## Contents
+* [I. The Basics](#I_The_Basics)
+	* [1. String](#The_Basics_String)
+	* [2. Symbols](#The_Basics_Symbols)
 
-## I The Basics
 
-### String 
+## <a id="I_The_Basics"></a> I. The Basics
+
+### <a id="The_Basics_String"></a>1. String 
 
 single quotes or double quotes
 
@@ -33,7 +38,7 @@ irb(main):002:0> "my favorite number is #{a}"
 => "my favorite number is Ten"
 ```
 
-### Symbols
+### <a id="The_Basics_Symbols"></a>2. Symbols
 
 ```
 irb(main):008:0> :name
