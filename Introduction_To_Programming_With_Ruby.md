@@ -102,6 +102,98 @@ irb(main):001:0> false == nil
 => false
 ```
 
+### Operations
+
+Adding
+
+```
+irb(main):002:0> 1+1
+=> 2
+irb(main):003:0> 2+3
+=> 5
+``` 
+
+Subtracting
+
+```
+irb(main):004:0> 12 - 5
+=> 7
+irb(main):005:0> 6-7
+=> -1
+irb(main):006:0>
+```
+
+Multiplying
+
+```
+irb(main):006:0>  10 *2
+=> 20
+irb(main):007:0> 2 * 3
+=> 6
+```
+
+Division VS Module
+
+```
+irb(main):008:0> 16 / 4
+=> 4
+irb(main):009:0> 16 % 4
+=> 0
+irb(main):010:0> 16 % 5
+=> 1
+irb(main):011:0> 15 / 4
+=> 3
+```
+
+Multiplying and Dividing Float 
+
+```
+irb(main):013:0> 15.0 / 4
+=> 3.75
+irb(main):014:0> 1.3 * 2.75
+=> 3.575
+irb(main):015:0> 1.31 * 2.75
+=> 3.6025
+irb(main):016:0> 9.75 * 4.32
+=> 42.120000000000005
+```
+
+Equality Comparison
+
+```
+irb(main):017:0> 4 == 4
+=> true
+irb(main):018:0> 4 == 5
+=> false
+```
+with strings 
+
+```
+irb(main):019:0> 'foo' == 'foo'
+=> true
+irb(main):020:0> 'foo' == 'bar'
+=> false
+irb(main):021:0> '4' == 4
+=> false
+```
+
+String Concatenation
+
+```
+irb(main):027:0> "one " + "two"
+=> "one two"
+irb(main):028:0> '1' + '1'
+=> "11"
+irb(main):029:0> 2 + 'string'
+Traceback (most recent call last):
+	3: from /usr/local/bin/irb:11:in `<main>'
+	2: from (irb):29
+	1: from (irb):29:in `+'
+TypeError (String can't be coerced into Integer)
+```
+
+
+
 ## II Variable
 
 ## Method 
