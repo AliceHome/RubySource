@@ -1,3 +1,6 @@
+
+[TOC]
+
 ## I The Basics
 
 ### String 
@@ -223,6 +226,8 @@ to_s
 irb(main):036:0> 12.to_s + 'Hello'
 => "12Hello"
 ```
+
+### Basic Data Structures
 
 
 ## II Variable
