@@ -191,7 +191,38 @@ Traceback (most recent call last):
 	1: from (irb):29:in `+'
 TypeError (String can't be coerced into Integer)
 ```
+### Type Conversion
 
+to_i(String -> Integer)
+
+```
+irb(main):030:0> '12'.to_i
+=> 12
+```
+
+some fun examples to try:
+
+```
+irb(main):030:0> '12'.to_i
+=> 12
+irb(main):031:0> '4'.to_i
+=> 4
+irb(main):032:0> '4 hi there'.to_i
+=> 4
+irb(main):033:0> 'hi 4 there'.to_i
+=> 0
+irb(main):034:0> '4'.to_f
+=> 4.0
+irb(main):035:0> 'hi there 4'.to_f
+=> 0.0
+```
+
+to_s
+
+```
+irb(main):036:0> 12.to_s + 'Hello'
+=> "12Hello"
+```
 
 
 ## II Variable
